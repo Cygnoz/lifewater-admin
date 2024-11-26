@@ -3,7 +3,6 @@ import No_Data_found from '../../assets/images/image.png';
 type Props = {
     columns: any[]
 }
-
 function NoDataFoundTable({ columns }: Props) {
   return (
     <tr>

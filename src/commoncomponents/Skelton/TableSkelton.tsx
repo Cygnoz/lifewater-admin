@@ -1,7 +1,6 @@
 type Props = {
     columns: any[]
   }
-  
   function TableSkelton({ columns }: Props) {
   return (
     <tr>

@@ -134,8 +134,6 @@ const PurchaseTable: React.FC<TableProps> = ({
           </tbody>
         </table>
       </div>
-
-   
     </div>
   );
 };

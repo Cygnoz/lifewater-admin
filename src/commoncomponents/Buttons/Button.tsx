@@ -9,6 +9,7 @@ type ButtonProps = React.HTMLAttributes<HTMLButtonElement> & {
   onSubmit?: (event: React.FormEvent<HTMLButtonElement>) => void; // Added onSubmit event type
 };
  
+
 const buttonVariants = cva("flex text-center items-center", {
   variants: {
     variant: {

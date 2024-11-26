@@ -51,7 +51,6 @@ const useApi = (type: string, port: number) => {
           response = await api.get(url);
           break;
       }
-
       if (response) {
         setError(!response.status.toString().startsWith("2"));
         setData(response.data);

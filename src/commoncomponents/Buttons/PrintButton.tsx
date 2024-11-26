@@ -1,6 +1,4 @@
 import PrinterIcon from "../../assets/icons/PrinterIcon";
-
-
 const PrintButton = () => {
 
   return (

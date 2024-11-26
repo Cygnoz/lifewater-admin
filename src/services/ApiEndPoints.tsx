@@ -5,5 +5,4 @@ export const endpoints= {
     // vehicle
     GET_ALL_VEHICLES:`viewVehicles`,
     ADD_VEHICLES:`addVehicle`,
-
  }

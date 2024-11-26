@@ -26,7 +26,6 @@ const createInstance = (
     }
   }
 // console.log(headers,"headers");
-
   return axios.create({
     baseURL,
     headers,
